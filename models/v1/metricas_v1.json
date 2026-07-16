@@ -1,0 +1,39 @@
+{
+  "modelo": "Regressão Linear",
+  "versao": "v1",
+  "data_treinamento": "2026-07-14 23:56:24",
+  "dataset": "NBA Players Stats and Salaries 2022-23",
+  "n_registros": 467,
+  "variaveis_preditoras": [
+    "Position",
+    "Age",
+    "GP",
+    "GS",
+    "3P",
+    "TRB",
+    "AST",
+    "STL",
+    "BLK",
+    "PF",
+    "PTS",
+    "PER",
+    "TS%",
+    "3PAr",
+    "FTr",
+    "ORB%",
+    "TRB%",
+    "STL%",
+    "BLK%",
+    "TOV%",
+    "USG%",
+    "WS",
+    "eficiencia",
+    "tier_time"
+  ],
+  "metricas_teste": {
+    "MAE": 4921851.12,
+    "MSE": 40591487443542.16,
+    "RMSE": 6371144.91,
+    "R2": 0.6943
+  }
+}
