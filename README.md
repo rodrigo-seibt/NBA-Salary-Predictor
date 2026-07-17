@@ -25,6 +25,53 @@ jogador da NBA? Isso é útil para:
 - **Registros:** 467 jogadores
 - **Colunas originais:** 52
 - **Colunas utilizadas na modelagem:** 24
+  
+## Glossário de Métricas da NBA
+
+Para facilitar o entendimento do projeto, explicamos abaixo
+as principais siglas utilizadas no dataset:
+
+### Estatísticas Básicas
+| Sigla | Nome | Descrição |
+|---|---|---|
+| `GP` | Games Played | Jogos disputados na temporada |
+| `GS` | Games Started | Jogos como titular |
+| `MP` | Minutes Per Game | Minutos jogados por jogo |
+| `PTS` | Points Per Game | Pontos marcados por jogo |
+| `AST` | Assists Per Game | Assistências por jogo |
+| `TRB` | Total Rebounds | Rebotes totais por jogo |
+| `STL` | Steals Per Game | Roubos de bola por jogo |
+| `BLK` | Blocks Per Game | Bloqueios por jogo |
+| `TOV` | Turnovers | Perdas de bola por jogo |
+| `PF` | Personal Fouls | Faltas pessoais por jogo |
+| `FG` | Field Goals | Cestas convertidas por jogo |
+| `3P` | Three Pointers | Cestas de 3 pontos por jogo |
+| `FT` | Free Throws | Lances livres convertidos por jogo |
+
+### Métricas de Percentual
+| Sigla | Nome | Descrição |
+|---|---|---|
+| `TS%` | True Shooting % | Percentual real de aproveitamento considerando cestas de 2, 3 pontos e lances livres |
+| `3PAr` | 3-Point Attempt Rate | Taxa de tentativas de 3 pontos em relação ao total de arremessos |
+| `FTr` | Free Throw Rate | Taxa de lances livres em relação ao total de arremessos |
+| `USG%` | Usage Rate | Percentual de jogadas do time que passam pelo jogador |
+
+### Métricas Avançadas
+| Sigla | Nome | Descrição |
+|---|---|---|
+| `PER` | Player Efficiency Rating | Índice geral de eficiência por minuto. Média da liga = 15.0. Acima de 25 indica candidato ao MVP |
+| `WS` | Win Shares | Estimativa de quantas vitórias o jogador contribuiu para o time na temporada |
+| `BPM` | Box Plus/Minus | Impacto do jogador em quadra comparado à média da liga. Zero = jogador médio |
+| `VORP` | Value Over Replacement Player | Valor do jogador comparado a um substituto médio disponível no mercado |
+
+### Posições
+| Sigla | Nome | Descrição |
+|---|---|---|
+| `PG` | Point Guard | Armador — o menor e mais ágil, responsável pela organização do jogo |
+| `SG` | Shooting Guard | Ala-armador — especialista em arremessos |
+| `SF` | Small Forward | Ala — equilíbrio entre agilidade e força |
+| `PF` | Power Forward | Ala-pivô — mais físico que os alas |
+| `C` | Center | Pivô — o maior e mais físico, dominante próximo à cesta |
 
 ## Pipeline — 6 Fases
 
