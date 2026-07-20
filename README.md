@@ -205,4 +205,4 @@ O projeto utilizou **Git Flow** com branches organizadas por fase:
 - `feature/avaliacao` → Fases 5 e 6
 
 ## Vídeo de Demonstração
-*(link será adicionado após a gravação)*
+https://www.loom.com/share/26df4f2f1e324258ae947b1f1bafdc1e
