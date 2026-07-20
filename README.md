@@ -111,6 +111,23 @@ Treinamos e comparamos 2 modelos:
 
 **Modelo campeão:** Regressão Linear — menor RMSE no teste e melhor generalização
 
+### Otimização do KNN
+Testamos diferentes valores de K para encontrar o número ideal
+de vizinhos para o dataset de 467 jogadores:
+
+| K | RMSE | R² |
+|---|---|---|
+| 3 | US$ 7,080,808 | 0.6223 |
+| 5 | US$ 6,637,371 | 0.6682 |
+| 7 | US$ 6,500,433 | 0.6817 |
+| **10** | **US$ 6,115,352** | **0.7183** |
+| 15 | US$ 6,152,925 | 0.7148 |
+| 20 | US$ 6,243,159 | 0.7064 |
+| 30 | US$ 6,256,959 | 0.7051 |
+
+K=10 apresentou o melhor resultado superando inclusive a
+Regressão Linear. Identificado como melhoria para a v2.
+
 ### Fase 6 — Avaliação e Versionamento
 - Métricas técnicas: MAE, MSE, RMSE e R²
 - Gráfico de dispersão: valores reais vs previstos
